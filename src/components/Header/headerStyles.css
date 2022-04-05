@@ -1,0 +1,55 @@
+.headerMain{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.headerText{
+  position: static;
+  flex: none;
+  left: 0px;
+  top: calc(50% - 43px/2);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 120%;
+  margin: 0px 24px;
+  color: #000000;
+}
+
+.headerCategoriesContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.headerButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 8px;
+  position: static;
+  border: none;
+  height: 14px;
+  top: 8px;
+}
+
+.headerButtons > p{
+  position: static;
+  height: 14px;
+  left: 8px;
+  right: 8px;
+  top: calc(50% - 14px/2);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+}

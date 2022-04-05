@@ -1,0 +1,48 @@
+.uniWidth{
+  width: 11vw;
+}
+
+.tokensTable{
+  margin-top: 34.5px;
+  margin-right: 0;
+  width: 100%;
+}
+
+.tokensTableTrDiv:hover{
+  box-shadow: 0px 0px 0px 2px #6347F5;
+  border-radius: 16px;
+  border: 1px bold #6347F5;
+}
+
+.tokensTableTrDiv{
+  cursor: pointer;
+  margin-top: 8px;
+  padding: 24px;
+  width: calc(100% - (24px * 2));
+}
+
+.tokensTableDivContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.tokensTableContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.tokensTableP{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin: 0 8px;
+}

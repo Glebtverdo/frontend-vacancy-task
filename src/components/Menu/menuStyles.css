@@ -1,0 +1,91 @@
+.menuMain{
+  position: fixed;
+  width: calc(100vw - 17px);
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(201.66deg, #B380FD 12.94%, #6347F5 78.23%);
+  flex-direction: column;
+  display: flex;
+  width: 17vw;
+  align-items: center;
+  order: 0;
+  flex-grow: 0;
+}
+
+.menuLogoDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 200px;
+  height: 62.75px;
+  left: 60px;
+  top: 64px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px 72px 0 ;
+
+}
+
+.menuLogoDiv>p{
+  margin: 8px 0 0 0;
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+}
+
+.menuItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 150px;
+  padding: 16px 24px;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px auto 0 auto;
+  text-decoration: none;
+  color: white;
+}
+
+.menuItem>span{
+  margin-right: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.menuSelected{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 150px;
+  padding: 16px 24px;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px auto;
+  text-decoration: none;
+  background-color: white;
+}
+
+.menuSelected>span{
+  margin-right: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.menuSelected>svg{
+  color: #B380FD;
+}
